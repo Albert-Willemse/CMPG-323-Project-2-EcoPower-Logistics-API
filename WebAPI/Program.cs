@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // Dependency injection, therefore we need to reference the connection string with the dbcontext
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");  
+var connectionString = builder.Configuration.GetConnectionString("EcoPowerSolutionsDB");  
 builder.Services.AddDbContext<EcoPowerSolutionsDBContext>(options => options.UseSqlServer(connectionString));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
