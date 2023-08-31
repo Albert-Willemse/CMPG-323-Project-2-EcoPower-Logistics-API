@@ -1,5 +1,5 @@
 # CMPG-323-Project-2-38205742
-Develop an API and host it on the Cloud. This project's value lies in using the API in the subsequent Reporting &amp; Monitoring Project.
+_The EcoPower Logistics API empowers users with the capability to engage in a wide range of functions concerning customer management, order management, and product management. Built on the principles of the Representational State Transfer (REST) architectural style, the API seamlessly employs HTTP methods to seamlessly interact with the data source. By strictly adhering to the CRUD principles, the API offers users the ability to effortlessly generate, retrieve, modify, and eliminate records within the database.._
 ## User Manual
 1. Register user or admin with the 'Authenticate' endpoint.
 2. Login with the user or admin.
