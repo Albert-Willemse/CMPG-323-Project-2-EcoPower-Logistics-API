@@ -1,5 +1,11 @@
 # CMPG-323-Project-2-38205742
 _The EcoPower Logistics API empowers users with the capability to engage in a wide range of functions concerning customer management, order management, and product management. Built on the principles of the Representational State Transfer (REST) architectural style, the API seamlessly employs HTTP methods to seamlessly interact with the data source. By strictly adhering to the CRUD principles, the API offers users the ability to effortlessly generate, retrieve, modify, and eliminate records within the database.._
+## Links
+### Link to API on Azure:
+[WebApi](https://p2-webapi.azurewebsites.net/index.html) 
+### Link to Resource Group on Azure:
+[rgP2API](https://portal.azure.com/#@nwuac.onmicrosoft.com/resource/subscriptions/ae904fbb-19de-40d3-8dba-264680e542a8/resourceGroups/rgP2API/overview)
+
 ## User Manual
 1. Register user or admin with the 'Authenticate' endpoint.
 2. Login with the user or admin.
